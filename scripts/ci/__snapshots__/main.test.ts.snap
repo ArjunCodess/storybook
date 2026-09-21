@@ -14997,7 +14997,7 @@ yarn wait-on tcp:127.0.0.1:6007",
         },
         {
           "run": {
-            "command": "sudo corepack enable
+            "command": "corepack enable
 which yarn
 yarn --version",
             "name": "Setup Corepack",
@@ -15063,7 +15063,8 @@ yarn wait-on tcp:127.0.0.1:8001",
         },
         {
           "run": {
-            "command": "cp /tmp/storybook-sandboxes /tmp/project/sandbox -r --remove-destination",
+            "command": "cp /tmp/storybook-sandboxes /tmp/project/sandbox -r --remove-destination
+rm -rf /tmp/project/sandbox/angular-vite-default-ts/.git",
             "name": "Copy sandbox for Chromatic",
           },
         },
