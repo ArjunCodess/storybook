@@ -1,3 +1,24 @@
+## 11.0.0-alpha.2
+
+- Builder Vite: Static assets copy to handle Windows paths - [#36307](https://github.com/storybookjs/storybook/pull/36307), thanks @AriPerkkio!
+- Builder-Vite: Resolve preview runtime import from builder context - [#36321](https://github.com/storybookjs/storybook/pull/36321), thanks @obvious-autobuild!
+- CLI: Accept Node.js prerelease builds in the version gate - [#36320](https://github.com/storybookjs/storybook/pull/36320), thanks @obvious-autobuild!
+- CLI: Fix vitest ERESOLVE on fresh Next.js apps. - [#36310](https://github.com/storybookjs/storybook/pull/36310), thanks @obvious-autobuild!
+- CLI: Warn when Yarn 1 is detected on a best-effort basis - [#36282](https://github.com/storybookjs/storybook/pull/36282), thanks @obvious-autobuild!
+- CSF: Add shared mutation API for stories and config files - [#36248](https://github.com/storybookjs/storybook/pull/36248), thanks @valentinpalkovic!
+- Core: Make csf-tools printing and CLI dispatcher output Windows-stable - [#36346](https://github.com/storybookjs/storybook/pull/36346), thanks @obvious-autobuild!
+- Core: Promote declared-subcomponents CSF helper - [#36324](https://github.com/storybookjs/storybook/pull/36324), thanks @obvious-autobuild!
+- Core: Stabilize csf-tools quote inference and webpack5 test on Windows - [#36360](https://github.com/storybookjs/storybook/pull/36360), thanks @obvious-autobuild!
+- Manager: Resolve preview iframe URL against the document base URI - [#35245](https://github.com/storybookjs/storybook/pull/35245), thanks @yatishgoel!
+- Preview: Only pause DocumentTimeline animations in preview-web - [#31900](https://github.com/storybookjs/storybook/pull/31900), thanks @tryggvigy!
+- React Native Web: Fix compatibility with typescript>5 - [#36304](https://github.com/storybookjs/storybook/pull/36304), thanks @NiGhTTraX!
+- TanStack: Support both interpolatePath signatures - [#36333](https://github.com/storybookjs/storybook/pull/36333), thanks @BaconMan1168!
+- Tests: Fix Preact React version expectation - [#36309](https://github.com/storybookjs/storybook/pull/36309), thanks @obvious-autobuild!
+- Vue3: Only reload the preview when docgen changes on hot update - [#35705](https://github.com/storybookjs/storybook/pull/35705), thanks @alliasgher!
+- Vue: Resolve named-type properties in docgen-server argTypes - [#36252](https://github.com/storybookjs/storybook/pull/36252), thanks @obvious-autobuild!
+- Webpack5: Resolve csf import from builder context - [#36318](https://github.com/storybookjs/storybook/pull/36318), thanks @obvious-autobuild!
+- Webpack: Align css-loader to v7 and pin CSS Modules export defaults - [#35485](https://github.com/storybookjs/storybook/pull/35485), thanks @yatishgoel!
+
 ## 11.0.0-alpha.1
 
 - A11y: Fix SummaryScreen region nesting - [#36183](https://github.com/storybookjs/storybook/pull/36183), thanks @Sidnioulz!
